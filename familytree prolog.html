@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Family Tree</title>
+  <style>
+    .person {
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      display: inline-block;
+      text-align: center;
+    }
+    .person h3 {
+      margin-top: 0;
+    }
+    .relationship {
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Family Tree</h1>
+
+  <div class="person">
+    <h3>John</h3>
+    <div class="relationship">
+      Father of:
+      <div class="person">
+        <h3>Bob</h3>
+        <div class="relationship">
+          Father of:
+          <div class="person">
+            <h3>Tom</h3>
+          </div>
+          <div class="person">
+            <h3>Susan</h3>
+          </div>
+        </div>
+      </div>
+      <div class="person">
+        <h3>Alice</h3>
+        <div class="relationship">
+          Mother of:
+          <div class="person">
+            <h3>Tom</h3>
+          </div>
+          <div class="person">
+            <h3>Susan</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="person">
+    <h3>Jane</h3>
+    <div class="relationship">
+      Mother of:
+      <div class="person">
+        <h3>Bob</h3>
+      </div>
+      <div class="person">
+        <h3>Alice</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="person">
+    <h3>Mike</h3>
+    <div class="relationship">
+      Father of:
+      <div class="person">
+        <h3>David</h3>
+      </div>
+      <div class="person">
+        <h3>Emma</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="person">
+    <h3>Sara</h3>
+    <div class="relationship">
+      Mother of:
+      <div class="person">
+        <h3>David</h3>
+      </div>
+      <div class="person">
+        <h3>Emma</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="person">
+    <h3>Siblings</h3>
+    <div class="relationship">
+      <div class="person">
+        <h3>Bob</h3>
+      </div>
+      <div class="person">
+        <h3>Alice</h3>
+      </div>
+    </div>
+    <div class="relationship">
+      <div class="person">
+        <h3>Tom</h3>
+      </div>
+      <div class="person">
+        <h3>Susan</h3>
+      </div>
+    </div>
+    <div class="relationship">
+      <div class="person">
+        <h3>David</h3>
+      </div>
+      <div class="person">
+        <h3>Emma</h3>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
